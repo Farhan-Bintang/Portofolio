@@ -1,0 +1,60 @@
+.bg-custom {
+  background-color: rgb(48, 44, 44);
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #a9a9a9;
+  background-image: url(img/header.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 50px;
+  color: #eaeaea;
+  font-weight: bolder;
+}
+.jumbotron img {
+  width: 200px;
+  border: 5px solid #e0e0e0;
+}
+.jumbotron h1,
+.jumbotron p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+#project {
+  background-color: #a9a9a9;
+}
+.jumbotron-custom {
+  background-image: url(img/header.jpg);
+}
+section {
+  padding-top: 5rem;
+}
+.about img {
+  border: 5px solid #a9a9a9;
+  border-radius: 5%;
+}
+.about p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  text-indent: 45px;
+  color: black;
+  background-color: #a9a9a9;
+  border-radius: 5%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.font-custom {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+.card img {
+  transition: all 0.5s ease-in;
+}
+
+.card:hover img {
+  scale: 1.1;
+  transition: all 0.5s ease-out;
+}
